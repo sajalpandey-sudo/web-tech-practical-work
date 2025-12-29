@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selectors</title>
+
+<style>
+/* Universal Selector */
+* {
+  font-family: Arial;
+}
+
+/* ID Selector */
+#idText {
+  color: red;
+}
+
+/* Class Selector */
+.classText {
+  color: blue;
+}
+
+/* Descendant Selector */
+div p {
+  color: green;
+}
+
+/* Group Selector */
+h2, h3 {
+  color: purple;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Group Selector Heading</h2>
+<h3>Another Group Heading</h3>
+
+<p id="idText">This is ID selector</p>
+
+<p class="classText">This is Class selector</p>
+
+<div>
+  <p>This is Descendant selector</p>
+</div>
+
+</body>
+</html>

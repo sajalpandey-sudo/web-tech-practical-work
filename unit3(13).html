@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Functions and Scope</title>
+</head>
+<body>
+
+<h2>JavaScript Functions & Variables</h2>
+
+<button onclick="show()">Click Me</button>
+<p id="msg"></p>
+
+<script>
+function show() {
+  var name = "Sajal";      // function scope
+  let age = 19;            // block scope
+  const college = "Rungta"; // constant
+
+  document.getElementById("msg").innerHTML =
+    "Name: " + name + "<br>" +
+    "Age: " + age + "<br>" +
+    "College: " + college;
+}
+</script>
+
+</body>
+</html>
